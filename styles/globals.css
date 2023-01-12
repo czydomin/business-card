@@ -1,0 +1,137 @@
+.header {
+    margin-bottom: 0px;
+}
+
+.content {
+    width: 317px;
+    background-color: #1A1B21;
+    margin-top: -5px;
+
+}
+
+.footer {
+    width: 317px;
+    height: 64px;
+    background-color: #161619;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.icon {
+    margin: 0px 12px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    height: 34px;
+    width: 115px;
+    border-radius: 6px;
+    border: none;
+    margin: 0px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-email {
+    background-color: white;
+}
+
+.btn-linkedIn {
+    background-color: #5093E2;
+    color: white;
+
+}
+
+.btn-text {
+    margin: 0px 4px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #23252C;
+
+
+}
+
+.header-image {
+    width: 317px;
+    height: 317px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+
+
+.maincontent {
+    background-color: #1A1B21;
+    width: 317px;
+}
+
+
+
+h1 {
+    color: white;
+    font-size: 25px;
+    margin-top: 21px;
+    margin-bottom: 0px;
+
+}
+
+h4 {
+    color: #F3BF99;
+    font-weight: 200;
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+
+p {
+    color: #F5F5F5;
+    margin-top: 9px;
+}
+
+h3 {
+    margin: 0px 36px;
+    color: #F5F5F5;
+}
+
+.about {
+    margin-top: 33px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.interests {
+    margin-top: 13px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.about-text {
+    margin: 0px 36px;
+    font-size: 10px;
+    line-height: 150%;
+}
+
+.interests-text {
+    margin: 0px 24px 36px 36px;
+    font-size: 10px;
+    line-height: 150%;
+}
