@@ -8,13 +8,15 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>Dominika Czyszczonik</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="container">
+      <main className={`${inter.className} container`}>
         <div className="header">
           <img
+            width="317"
+            height="317"
             className="header-image"
             src="https://media.licdn.com/dms/image/C4D03AQFzxWYqXgrANw/profile-displayphoto-shrink_800_800/0/1643227654385?e=2147483647&v=beta&t=9A3ida_jt4K86LVA_pbjZSFEDtikCmsFAqN0OtBZ07M"
           />
@@ -26,7 +28,10 @@ export default function Home() {
             <p> dominika.czyszczonik.pl</p>
           </div>
           <div className="btn-container">
-            <button className="btn btn-email">
+            <a
+              href="mailto:dominika.czyszczonik@gmail.com"
+              className="btn btn-email"
+            >
               <svg
                 width="17"
                 height="16"
@@ -44,8 +49,12 @@ export default function Home() {
                 />
               </svg>
               <span className="btn-text">Email</span>
-            </button>
-            <button className="btn btn-linkedIn">
+            </a>
+            <a
+              href="https://pl.linkedin.com/in/dominika-czyszczonik-148208129"
+              target="blank"
+              className="btn btn-linkedIn"
+            >
               <svg
                 width="16"
                 height="16"
@@ -59,7 +68,7 @@ export default function Home() {
                 />
               </svg>
               <span className="btn-text">LinkedIn</span>
-            </button>
+            </a>
           </div>
           <div>
             <h3 className="about">About</h3>
